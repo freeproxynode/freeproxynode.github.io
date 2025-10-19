@@ -1,4 +1,4 @@
-# V2ray Dog | 10月12日19.6M/S|免费Shadowrocket节点/V2ray节点/SSR节点/Singbox节点/Clash节点节点推荐，线上V2ray机场订阅购买推荐  更新时间 2025-10-12 10:05:04
+# V2ray Dog | 10月19日22M/S|免费Clash节点/SSR节点/V2ray节点/Singbox节点/Shadowrocket节点节点推荐，线上V2ray机场订阅购买推荐  更新时间 2025-10-19 08:19:49
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://freeproxynode.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### 免费Clash节点订阅链接
 
-- https://freeproxynode.github.io/uploads/2025/10/0-20251012.yaml
-- https://freeproxynode.github.io/uploads/2025/10/1-20251012.yaml
-- https://freeproxynode.github.io/uploads/2025/10/2-20251012.yaml
-- https://freeproxynode.github.io/uploads/2025/10/3-20251012.yaml
-- https://freeproxynode.github.io/uploads/2025/10/4-20251012.yaml
+- https://freeproxynode.github.io/uploads/2025/10/0-20251019.yaml
+- https://freeproxynode.github.io/uploads/2025/10/1-20251019.yaml
+- https://freeproxynode.github.io/uploads/2025/10/2-20251019.yaml
+- https://freeproxynode.github.io/uploads/2025/10/3-20251019.yaml
+- https://freeproxynode.github.io/uploads/2025/10/4-20251019.yaml
 
 ### 免费V2ray节点订阅链接
 
-- https://freeproxynode.github.io/uploads/2025/10/0-20251012.txt
-- https://freeproxynode.github.io/uploads/2025/10/1-20251012.txt
-- https://freeproxynode.github.io/uploads/2025/10/2-20251012.txt
-- https://freeproxynode.github.io/uploads/2025/10/3-20251012.txt
-- https://freeproxynode.github.io/uploads/2025/10/4-20251012.txt
+- https://freeproxynode.github.io/uploads/2025/10/0-20251019.txt
+- https://freeproxynode.github.io/uploads/2025/10/1-20251019.txt
+- https://freeproxynode.github.io/uploads/2025/10/2-20251019.txt
+- https://freeproxynode.github.io/uploads/2025/10/3-20251019.txt
+- https://freeproxynode.github.io/uploads/2025/10/4-20251019.txt
 
 ### 免费Sing-box节点订阅链接
 
-- https://freeproxynode.github.io/uploads/2025/10/20251012.json
+- https://freeproxynode.github.io/uploads/2025/10/20251019.json
 
 ## 更多Clash节点订阅 ：
 
