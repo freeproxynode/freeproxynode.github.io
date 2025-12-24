@@ -323,12 +323,18 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
 <div class="clearfix"></div>
 <div class="col-md-12 mt-5">
         <p>上一个：<a href="/free-nodes/2025-12-16-clash-verge-rev-github.htm">V2ray Dog | 12月16日20.1M/S|免费V2ray节点/SSR节点/Singbox节点/Shadowrocket节点/Clash节点节点推荐，线上V2ray机场订阅购买推荐</a></p>
+        <p>下一个：<a href="/free-nodes/2025-12-18-clash-stash-node.htm">V2ray Dog | 12月18日22.5M/S|免费Clash节点/Singbox节点/SSR节点/Shadowrocket节点/V2ray节点节点推荐，线上V2ray机场订阅购买推荐</a></p>
     </div>
 <h4>FAQ</h4>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Mihomo 的日志功能如何开启？</h5></div>
+    <div class="panel-heading"><h5>Mellow TUN 模式与 SOCKS5 代理有什么区别？</h5></div>
     <div class="panel-body">
-        Mihomo 的日志默认关闭以节省性能。若需调试，可在配置文件中启用 `log-level: debug` 参数，日志将输出详细连接信息与错误提示，便于排查问题。<hr />    </div>
+        TUN 模式拦截系统 IP 层流量，实现全局代理；SOCKS5 代理通常只影响指定应用。TUN 更适合全局加速，如游戏、视频和浏览器流量，提高网络稳定性和覆盖范围。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Hiddify Next 用户带宽限制如何配置？</h5></div>
+    <div class="panel-body">
+        管理员可为每个用户设置上传、下载和总流量上限，超出限制可自动降速或阻止访问。保证服务器资源合理分配，避免单用户占用过多带宽，提高整体公平性。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Quantumult X 中自定义脚本导致规则异常，该如何恢复？</h5></div>
@@ -341,19 +347,14 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
         通过混淆插件可以模拟正常 HTTPS 或 HTTP 流量，隐藏真实通信特征。合理选择混淆方式，可有效避免 DPI 检测，提高节点可用性和连接稳定性，保证长期科学上网。<hr />    </div>
 </div>
 <div class="panel panel-default">
+    <div class="panel-heading"><h5>如何为 Trojan 配置 ALPN 与 SNI 提升伪装效果？</h5></div>
+    <div class="panel-body">
+        在服务器与客户端配置中设置合适的 SNI（伪装域名）并启用 ALPN（例如 http/1.1），确保 TLS 握手时使用常见的应用层协议标识，从而增加流量与普通 HTTPS 的相似度，降低被检测概率。<hr />    </div>
+</div>
+<div class="panel panel-default">
     <div class="panel-heading"><h5>如何用 iptables 限制 V2Ray 服务的访问来源？</h5></div>
     <div class="panel-body">
         使用 iptables 规则仅允许可信 IP 或 CDN 的中转 IP 访问服务端口，例如 `iptables -A INPUT -p tcp -s <trusted_ip> --dport 443 -j ACCEPT`，并在默认策略下拒绝其他来源，从而降低被扫描与滥用风险。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Hiddify Next 用户带宽限制如何配置？</h5></div>
-    <div class="panel-body">
-        管理员可为每个用户设置上传、下载和总流量上限，超出限制可自动降速或阻止访问。保证服务器资源合理分配，避免单用户占用过多带宽，提高整体公平性。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Mellow TUN 模式与 SOCKS5 代理有什么区别？</h5></div>
-    <div class="panel-body">
-        TUN 模式拦截系统 IP 层流量，实现全局代理；SOCKS5 代理通常只影响指定应用。TUN 更适合全局加速，如游戏、视频和浏览器流量，提高网络稳定性和覆盖范围。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Clash.Meta 与原版 Clash 有何不同？</h5></div>
@@ -361,19 +362,19 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
         Clash.Meta 是社区优化版本，支持更多传输协议，如 Hysteria、TUIC、Reality 等。它还增强了 DNS 处理逻辑和脚本分流能力，适合追求极致速度和灵活规则配置的高级用户。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>如何为 Trojan 配置 ALPN 与 SNI 提升伪装效果？</h5></div>
+    <div class="panel-heading"><h5>Mihomo 的日志功能如何开启？</h5></div>
     <div class="panel-body">
-        在服务器与客户端配置中设置合适的 SNI（伪装域名）并启用 ALPN（例如 http/1.1），确保 TLS 握手时使用常见的应用层协议标识，从而增加流量与普通 HTTPS 的相似度，降低被检测概率。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Surfboard 可以结合规则实现广告屏蔽吗？</h5></div>
-    <div class="panel-body">
-        可以。Surfboard 支持通过规则文件匹配广告域名或 URL，将其阻断或重定向。结合策略组定期更新规则，可以实现自动广告屏蔽，提升网页浏览体验并节省带宽。<hr />    </div>
+        Mihomo 的日志默认关闭以节省性能。若需调试，可在配置文件中启用 `log-level: debug` 参数，日志将输出详细连接信息与错误提示，便于排查问题。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Shadowrocket 在使用订阅时要注意什么？</h5></div>
     <div class="panel-body">
-        在 Shadowrocket 中添加订阅时，应确保链接以 https 开头且格式正确。此外，若节点更新失败，可尝试关闭缓存或重新获取订阅链接，以保证配置文件同步最新节点数据。    </div>
+        在 Shadowrocket 中添加订阅时，应确保链接以 https 开头且格式正确。此外，若节点更新失败，可尝试关闭缓存或重新获取订阅链接，以保证配置文件同步最新节点数据。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Surfboard 可以结合规则实现广告屏蔽吗？</h5></div>
+    <div class="panel-body">
+        可以。Surfboard 支持通过规则文件匹配广告域名或 URL，将其阻断或重定向。结合策略组定期更新规则，可以实现自动广告屏蔽，提升网页浏览体验并节省带宽。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -402,16 +403,16 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2025-11-8-clash-verge-rev-nodes.htm" title="V2ray Dog | 11月8日21.3M/S|免费SSR节点/Clash节点/V2ray节点/Shadowrocket节点/Singbox节点节点推荐，线上V2ray机场订阅购买推荐">V2ray Dog | 11月8日21.3M/S|免费SSR节点/Clash节点/V2ray节点/Shadowrocket节点/Singbox节点节点推荐，线上V2ray机场订阅购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-23-clash-verge-rev-node-share.htm" title="V2ray Dog | 11月23日18.3M/S|免费V2ray节点/Shadowrocket节点/Singbox节点/SSR节点/Clash节点节点推荐，线上V2ray机场订阅购买推荐">V2ray Dog | 11月23日18.3M/S|免费V2ray节点/Shadowrocket节点/Singbox节点/SSR节点/Clash节点节点推荐，线上V2ray机场订阅购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-12-22-node-share.htm" title="V2ray Dog | 12月22日18.1M/S|免费Clash节点/V2ray节点/SSR节点/Shadowrocket节点/Singbox节点节点推荐，线上V2ray机场订阅购买推荐">V2ray Dog | 12月22日18.1M/S|免费Clash节点/V2ray节点/SSR节点/Shadowrocket节点/Singbox节点节点推荐，线上V2ray机场订阅购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-12-4-node-share.htm" title="V2ray Dog | 12月4日22.1M/S|免费Shadowrocket节点/Singbox节点/Clash节点/SSR节点/V2ray节点节点推荐，线上V2ray机场订阅购买推荐">V2ray Dog | 12月4日22.1M/S|免费Shadowrocket节点/Singbox节点/Clash节点/SSR节点/V2ray节点节点推荐，线上V2ray机场订阅购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-20-node-share.htm" title="V2ray Dog | 11月20日21M/S|免费V2ray节点/SSR节点/Shadowrocket节点/Singbox节点/Clash节点节点推荐，线上V2ray机场订阅购买推荐">V2ray Dog | 11月20日21M/S|免费V2ray节点/SSR节点/Shadowrocket节点/Singbox节点/Clash节点节点推荐，线上V2ray机场订阅购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-12-3-free-node-subscribe.htm" title="V2ray Dog | 12月3日20.6M/S|免费Clash节点/Singbox节点/SSR节点/Shadowrocket节点/V2ray节点节点推荐，线上V2ray机场订阅购买推荐">V2ray Dog | 12月3日20.6M/S|免费Clash节点/Singbox节点/SSR节点/Shadowrocket节点/V2ray节点节点推荐，线上V2ray机场订阅购买推荐</a></li>
                         <li class="py-2"><a href="/free-nodes/2025-11-30-clash-verge-rev-windows.htm" title="V2ray Dog | 11月30日21.8M/S|免费V2ray节点/Clash节点/SSR节点/Shadowrocket节点/Singbox节点节点推荐，线上V2ray机场订阅购买推荐">V2ray Dog | 11月30日21.8M/S|免费V2ray节点/Clash节点/SSR节点/Shadowrocket节点/Singbox节点节点推荐，线上V2ray机场订阅购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-14-node-share.htm" title="V2ray Dog | 11月14日21.8M/S|免费Clash节点/Singbox节点/SSR节点/Shadowrocket节点/V2ray节点节点推荐，线上V2ray机场订阅购买推荐">V2ray Dog | 11月14日21.8M/S|免费Clash节点/Singbox节点/SSR节点/Shadowrocket节点/V2ray节点节点推荐，线上V2ray机场订阅购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-28-free-node-subscribe.htm" title="V2ray Dog | 11月28日19M/S|免费V2ray节点/SSR节点/Clash节点/Shadowrocket节点/Singbox节点节点推荐，线上V2ray机场订阅购买推荐">V2ray Dog | 11月28日19M/S|免费V2ray节点/SSR节点/Clash节点/Shadowrocket节点/Singbox节点节点推荐，线上V2ray机场订阅购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-12-13-clash-meta-github.htm" title="V2ray Dog | 12月13日21.7M/S|免费V2ray节点/SSR节点/Clash节点/Singbox节点/Shadowrocket节点节点推荐，线上V2ray机场订阅购买推荐">V2ray Dog | 12月13日21.7M/S|免费V2ray节点/SSR节点/Clash节点/Singbox节点/Shadowrocket节点节点推荐，线上V2ray机场订阅购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-11-clash-verge-rev-node.htm" title="V2ray Dog | 11月11日19.4M/S|免费Clash节点/Shadowrocket节点/SSR节点/Singbox节点/V2ray节点节点推荐，线上V2ray机场订阅购买推荐">V2ray Dog | 11月11日19.4M/S|免费Clash节点/Shadowrocket节点/SSR节点/Singbox节点/V2ray节点节点推荐，线上V2ray机场订阅购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-12-8-clash-v2ray-ss-ssr.htm" title="V2ray Dog | 12月8日18.6M/S|免费V2ray节点/SSR节点/Shadowrocket节点/Singbox节点/Clash节点节点推荐，线上V2ray机场订阅购买推荐">V2ray Dog | 12月8日18.6M/S|免费V2ray节点/SSR节点/Shadowrocket节点/Singbox节点/Clash节点节点推荐，线上V2ray机场订阅购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-12-node-share.htm" title="V2ray Dog | 11月12日20.7M/S|免费Clash节点/V2ray节点/Singbox节点/Shadowrocket节点/SSR节点节点推荐，线上V2ray机场订阅购买推荐">V2ray Dog | 11月12日20.7M/S|免费Clash节点/V2ray节点/Singbox节点/Shadowrocket节点/SSR节点节点推荐，线上V2ray机场订阅购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-6-clash-verge-rev-github.htm" title="V2ray Dog | 11月6日20M/S|免费Clash节点/Shadowrocket节点/SSR节点/Singbox节点/V2ray节点节点推荐，线上V2ray机场订阅购买推荐">V2ray Dog | 11月6日20M/S|免费Clash节点/Shadowrocket节点/SSR节点/Singbox节点/V2ray节点节点推荐，线上V2ray机场订阅购买推荐</a></li>
                         <li class="py-2"><a href="/free-nodes/2025-12-2-clash-stash-node.htm" title="V2ray Dog | 12月2日18M/S|免费V2ray节点/Shadowrocket节点/Singbox节点/Clash节点/SSR节点节点推荐，线上V2ray机场订阅购买推荐">V2ray Dog | 12月2日18M/S|免费V2ray节点/Shadowrocket节点/Singbox节点/Clash节点/SSR节点节点推荐，线上V2ray机场订阅购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-8-clash-verge-rev-nodes.htm" title="V2ray Dog | 11月8日21.3M/S|免费SSR节点/Clash节点/V2ray节点/Shadowrocket节点/Singbox节点节点推荐，线上V2ray机场订阅购买推荐">V2ray Dog | 11月8日21.3M/S|免费SSR节点/Clash节点/V2ray节点/Shadowrocket节点/Singbox节点节点推荐，线上V2ray机场订阅购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-10-clash-stash.htm" title="V2ray Dog | 11月10日20.1M/S|免费Shadowrocket节点/SSR节点/Singbox节点/Clash节点/V2ray节点节点推荐，线上V2ray机场订阅购买推荐">V2ray Dog | 11月10日20.1M/S|免费Shadowrocket节点/SSR节点/Singbox节点/Clash节点/V2ray节点节点推荐，线上V2ray机场订阅购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-22-clash-meta-github.htm" title="V2ray Dog | 11月22日20.6M/S|免费Singbox节点/Shadowrocket节点/Clash节点/SSR节点/V2ray节点节点推荐，线上V2ray机场订阅购买推荐">V2ray Dog | 11月22日20.6M/S|免费Singbox节点/Shadowrocket节点/Clash节点/SSR节点/V2ray节点节点推荐，线上V2ray机场订阅购买推荐</a></li>
                     </ul>
     </div>
 </div>
@@ -423,7 +424,7 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">16</span> <a href="/date/2025-12/" title="2025-12 归档">2025-12</a></h4>
+                <h4><span class="badge" style="float: right;">23</span> <a href="/date/2025-12/" title="2025-12 归档">2025-12</a></h4>
             </li>
                         <li class="py-2">
                 <h4><span class="badge" style="float: right;">23</span> <a href="/date/2025-11/" title="2025-11 归档">2025-11</a></h4>
